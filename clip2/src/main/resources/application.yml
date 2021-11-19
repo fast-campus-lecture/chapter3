@@ -1,0 +1,8 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "metrics, prometheus"
+
+server:
+  port: 8180
